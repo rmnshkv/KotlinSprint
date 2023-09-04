@@ -1,5 +1,4 @@
 fun main() {
-    //println("Hello World!")
 
     val numberOfOrders = 75
 

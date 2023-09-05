@@ -1,11 +1,10 @@
 fun main() {
 
-    val numberOfEmployees = 2000
+    var numberOfEmployees = 2000
 
-    val notificationText = "Количество сотрудников"
+    //println(numberOfEmployees) -  – Далее представим, что один работник уволился.
 
-    //println(numberOfEmployees)
-    println(notificationText)
+    val employeeQuit = 1
 
-    println (numberOfEmployees - 1)
+    println(numberOfEmployees-employeeQuit)
 }

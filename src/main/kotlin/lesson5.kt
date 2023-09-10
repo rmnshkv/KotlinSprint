@@ -6,5 +6,4 @@ fun main() {
     val second = seconds % 60
 
     println (String.format("%02d:%02d:%02d", hour, minute, second))
-
 }

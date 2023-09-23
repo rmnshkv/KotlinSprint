@@ -1,7 +1,15 @@
-fun main(args: Array<String>) {
-    println("Hello World!")
+fun main() {
+    var cageletter = "E"
+    val cage1 = 2
+    val cage2 = 4
+    val counter = 1
 
-    // Try adding program arguments via Run/Debug configuration.
-    // Learn more about running applications: https://www.jetbrains.com/help/idea/running-applications.html.
-    println("Program arguments: ${args.joinToString()}")
+    println("$cageletter$cage1-$cageletter$cage2;${counter}")
+
+    cageletter = "D"
+
+    while (counter > 0 && cage1 > 0) {
+        println("$cageletter$cage1-$cageletter${cage1+1};${counter+1}")
+        break
+    }
 }

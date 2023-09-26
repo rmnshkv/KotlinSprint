@@ -1,15 +1,16 @@
 fun main() {
-    var cageletter = "E"
-    val cage1 = 2
-    val cage2 = 4
+    var cage1 = "E2"
+    var cage2 = "E4"
     val counter = 1
 
-    println("$cageletter$cage1-$cageletter$cage2;${counter}")
+    println("$cage1-$cage2;${counter}")
 
-    cageletter = "D"
+    cage1 = "D2"
+    cage2 = "D4"
 
-    while (counter > 0 && cage1 > 0) {
-        println("$cageletter$cage1-$cageletter${cage1+1};${counter+1}")
+   while (counter > 0) {
+        println("$cage1-$cage2;${counter+1}")
         break
     }
+
 }

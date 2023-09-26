@@ -3,15 +3,10 @@ fun main() {
     val ironOre: Int = 11
     val buff: Double = 0.2
 
-    var crystalOreBuff = crystalOre * buff
-    var ironOreBuff = ironOre * buff
+    val crystalOreBuff = crystalOre * buff
+    val ironOreBuff = ironOre * buff
 
-    println(crystalOreBuff.toInt())
-    println(ironOreBuff.toInt())
+    println("Бафф кристаллической руды: ${crystalOreBuff.toInt()}")
+    println("Бафф Железной руды: ${ironOreBuff.toInt()}")
 
-    crystalOreBuff = crystalOre + (crystalOre * buff)
-    ironOreBuff = ironOre + (ironOre * buff)
-
-    println(crystalOreBuff.toInt())
-    println(ironOreBuff.toInt())
 }

@@ -1,7 +1,7 @@
 fun main() {
 
     val string = "D2-D4;0"
-    val parts = string.split("[\\-\\;]".toRegex())
+    val parts = string.split("-", ";")
 
     val firstMove = parts[0]
     println(firstMove)

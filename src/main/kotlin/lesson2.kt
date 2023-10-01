@@ -1,18 +1,9 @@
 fun main() {
-    val age = readln()!!.toInt()
-    val name = "Татьяна"
-    val patronymic = "Сергеевна"
-    val surname1 = "Андреева"
-    val surname2 = "Сидорова"
-    val age1 = "20"
-    val age2 =  "22"
+    val firstName = "Татьяна"
+    val lastName = "Сергеевна"
+    val surename = "Андреева"
+    val secondSureName = "Сидорова"
 
-    if (age <= BEFORE_WEDDING) {
-        println("$surname1 $name $patronymic, $age1")
-    }
-    if (age >= AFTER_WEDDING) {
-        println("$surname2 $name $patronymic, $age2")
-    }
+    println("ФИО на момент 20 лет: $surename $firstName $lastName")
+    println("ФИО на момент 22 лет: $secondSureName $firstName $lastName")
 }
-const val BEFORE_WEDDING = 21
-const val AFTER_WEDDING = 22

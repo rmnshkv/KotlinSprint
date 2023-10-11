@@ -6,7 +6,7 @@ fun main() {
     println("Для входа решите пример:")
     println("Сколько будет $number1 + $number2")
 
-    val answer = readln()?.toIntOrNull()
+    val answer = readln().toIntOrNull() ?: 0
 
     if (answer == number1 + number2) {
         println("Даров, проходи, присаживайся бро)")

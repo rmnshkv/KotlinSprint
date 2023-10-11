@@ -3,7 +3,7 @@ fun main() {
     val number1 = (1..10).random()
     val number2 = (1..10).random()
 
-    println("Для входа решите пример:")
+    println("Для входа нужно решить пример:")
     println("Сколько будет $number1 + $number2")
 
     val answer = readln().toIntOrNull() ?: 0

@@ -1,10 +1,15 @@
 fun main() {
 
-    val goodConditions = IS_SUNNY == IS_SUNNY && IS_AWNING_OPEN == IS_AWNING_OPEN && AIR_HUMIDITY == AIR_HUMIDITY && SEASON != SEASON
+    val isSunny = true
+    val isAwningOpen = true
+    val airHumidity = 20
+    val season = "winter"
 
-    println("Благоприятные ли сейчас условия для роста бобовых? $goodConditions")
+    val isGoodConditions = isSunny == IS_SUNNY && isAwningOpen == IS_AWNING_OPEN && airHumidity == AIR_HUMIDITY && season == SEASON
+
+    println("Благоприятные ли сейчас условия для роста бобовых? $isGoodConditions")
 }
 const val IS_SUNNY = true
 const val IS_AWNING_OPEN = true
 const val AIR_HUMIDITY = 20
-const val SEASON = "winter"
+const val SEASON = "not winter"

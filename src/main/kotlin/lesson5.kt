@@ -19,6 +19,7 @@ fun main() {
 
 fun generateWinningNumbers(): List<Int> {
     val numbers = mutableListOf<Int>()
+
     while (numbers.size < 3) {
         val randomNumber = Random.nextInt(0, 43)
         if (!numbers.contains(randomNumber)) {
@@ -30,6 +31,7 @@ fun generateWinningNumbers(): List<Int> {
 
 fun getUserNumbers(): List<Int> {
     val numbers = mutableListOf<Int>()
+
     println("Победные числа для провекри: $WINNING_NUMBERS")
     println("\nВведите три числа от 0 до 42:")
     for (i in 1..3) {
